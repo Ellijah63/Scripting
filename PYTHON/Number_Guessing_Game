@@ -1,7 +1,7 @@
 #!/bin/python3
 import random
 secret_number = random.randint(0, 10)
-guess = int(input("Guess the secret nmumber: "))
+guess = int(input("Guess the secret number: "))
 while guess != secret_number:
-    guess = int(input("Guess the secret nmumber: "))
+    guess = int(input("Guess the secret number: "))
 print("The correct number is " + str(secret_number))
